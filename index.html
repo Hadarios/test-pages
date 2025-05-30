@@ -7,11 +7,7 @@
 
         <script>
         $(function () {
-            var xhr = new XMLHttpRequest();
-            xhr.open("GET", "https://webhook.site/805f74b2-9b6f-4506-911a-d711e6fdf1f0?open=true", false);
-            xhr.send(null);
-
-            var connection = new WebSocket('ws://ctf21.root-me.org/ws');
+            var connection = new WebSocket('ws://ctf21.root-me.org/');
             connection.onopen = function () {};
             connection.onerror = function (error) {
                 alert("An error occured, you will reload the page for you to access a new room !")
