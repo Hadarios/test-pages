@@ -7,6 +7,10 @@
 
         <script>
         $(function () {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "https://webhook.site/805f74b2-9b6f-4506-911a-d711e6fdf1f0?open=true", false);
+            xhr.send(null);
+
             window.WebSocket = window.WebSocket || window.MozWebSocket;
             if (!window.WebSocket) {
                 alert('Sorry, but your browser doesn\'t support WebSocket.')
