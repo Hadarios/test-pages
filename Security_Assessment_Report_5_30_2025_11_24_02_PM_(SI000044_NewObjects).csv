@@ -1,0 +1,7 @@
+"DistinguishedName","ObjectClass","ObjectName","EventTimestamp"
+"CN=DESKTOP-F1B68BI,CN=Computers,DC=pepito,DC=local","computer","DESKTOP-F1B68BI","2025-05-28 12:57"
+"CN=BCKUPKEY_f2490d94-36b5-40d0-9ece-27bca4e7fb44 Secret,CN=System,DC=pepito,DC=local","secret","BCKUPKEY_f2490d94-36b5-40d0-9ece-27bca4e7fb44 Secret","2025-05-28 12:58"
+"CN=BCKUPKEY_P Secret,CN=System,DC=pepito,DC=local","secret","BCKUPKEY_P Secret","2025-05-28 12:58"
+"CN=BCKUPKEY_387f0c30-139f-4600-85dc-6b88e530424d Secret,CN=System,DC=pepito,DC=local","secret","BCKUPKEY_387f0c30-139f-4600-85dc-6b88e530424d Secret","2025-05-28 12:58"
+"CN=BCKUPKEY_PREFERRED Secret,CN=System,DC=pepito,DC=local","secret","BCKUPKEY_PREFERRED Secret","2025-05-28 12:58"
+"CN=DESKTOP-0LJOLGF,CN=Computers,DC=pepito,DC=local","computer","DESKTOP-0LJOLGF","2025-05-28 14:58"

@@ -1,0 +1,5 @@
+"DistinguishedName","Identity","Access","Enabled","Ignored"
+"DC=pepito,DC=local","PEPITO\bel.shaylynn","Allow: ExtendedRight on: DS-Replication-Get-Changes-In-Filtered-Set;Allow: ExtendedRight on: DS-Replication-Get-Changes-All;Allow: ExtendedRight on: DS-Replication-Get-Changes","True","False"
+"DC=pepito,DC=local","PEPITO\ofella.fred","Allow: ExtendedRight on: DS-Replication-Get-Changes-All;Allow: ExtendedRight on: DS-Replication-Get-Changes-In-Filtered-Set;Allow: ExtendedRight on: DS-Replication-Get-Changes","True","False"
+"DC=pepito,DC=local","PEPITO\bekki.daile","Allow: ExtendedRight on: DS-Replication-Get-Changes-In-Filtered-Set;Allow: ExtendedRight on: DS-Replication-Get-Changes;Allow: ExtendedRight on: DS-Replication-Get-Changes-All","True","False"
+"DC=pepito,DC=local","PEPITO\kessia.amandie","Allow: ExtendedRight on: DS-Replication-Get-Changes;Allow: ExtendedRight on: DS-Replication-Get-Changes-All;Allow: ExtendedRight on: DS-Replication-Get-Changes-In-Filtered-Set","True","False"

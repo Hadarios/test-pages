@@ -1,0 +1,2 @@
+"DistinguishedName","Access","Ignored"
+"CN=WIN-ISHD8ME3USN,OU=Domain Controllers,DC=pepito,DC=local","PEPITO\ESMWLPT1000012$ Allow: GenericAll on: All Properties; PEPITO\TSTWWKS1000015$ Allow: GenericAll on: All Properties; PEPITO\SECWAPPS1000016$ Allow: GenericAll on: All Properties; PEPITO\TSTWLPT1000016$ Allow: GenericAll on: All Properties; PEPITO\RA-vil-distlist1 Allow: GenericAll on: All Properties","False"

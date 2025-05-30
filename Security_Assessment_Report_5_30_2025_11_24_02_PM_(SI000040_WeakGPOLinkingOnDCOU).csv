@@ -1,0 +1,4 @@
+"DistinguishedName","Identity","Access","Ignored"
+"OU=Domain Controllers","PEPITO\RA-vil-distlist1","Allow: GenericAll on: All Properties","False"
+"OU=Domain Controllers","PEPITO\TSTWLPT1000016$","Allow: GenericAll on: All Properties","False"
+"OU=Domain Controllers","PEPITO\SECWAPPS1000016$","Allow: GenericAll on: All Properties","False"

@@ -1,0 +1,2 @@
+"DistinguishedName","SamAccountName","ServicePrincipalName","AESEnabled","EventTimestamp","Ignored"
+"CN=Administrator,CN=Users,DC=pepito,DC=local","Administrator","https/GOOWDBAS1000007","False","2025-04-25 10:50","False"

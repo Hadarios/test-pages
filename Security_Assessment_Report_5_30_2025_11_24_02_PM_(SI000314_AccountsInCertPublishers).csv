@@ -1,0 +1,4 @@
+"MemberDN","Domain","GroupDN","Ignored"
+"CN=DEMETRIUS_FARRELL,OU=ESM,OU=People,DC=pepito,DC=local","pepito.local","CN=Cert Publishers,CN=Users,DC=pepito,DC=local","False"
+"CN=LORENZO_NOLAN,OU=FSR,OU=Stage,DC=pepito,DC=local","pepito.local","CN=Cert Publishers,CN=Users,DC=pepito,DC=local","False"
+"CN=BEATRIZ_WYNN,OU=TST,OU=People,DC=pepito,DC=local","pepito.local","CN=Cert Publishers,CN=Users,DC=pepito,DC=local","False"
