@@ -1,3 +1,3 @@
 <?php
-echo OUAIS OUAIS OUAIS;
+var_dump(scandir("."));
 ?>
