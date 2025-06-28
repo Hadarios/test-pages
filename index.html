@@ -38,7 +38,7 @@
 ```
 
     
-      let blob = new Blob([`<script>${payload}</script` + ">"], { type: "text/html" });
+      let blob = new Blob([`<script>${payload}<` + `/` + `script` + ">"], { type: "text/html" });
 
       setTimeout(() => {
         x.postMessage(
