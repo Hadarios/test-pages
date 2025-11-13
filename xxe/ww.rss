@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "/etc/passwd"> ]>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <atom:link href="https://feeds.simplecast.com/54nAGcIl" rel="self" title="MP3 Audio" type="application/atom+xml"/>
+    <atom:link href="https://simplecast.superfeedr.com" rel="hub" xmlns="http://www.w3.org/2005/Atom"/>
+    <generator>https://simplecast.com</generator>
+    <title>The Daily</title>
+    <description>This is what the news should sound like. The biggest stories of our time, told by the best journalists in the world. Hosted by Michael Barbaro, Rachel Abrams and Natalie Kitroeff. Twenty minutes a day, five days a week, ready by 6 a.m. 
+
+Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher.</description>
+    <copyright>© 2020-2021 THE NEW YORK TIMES COMPANY; The New York Times encourages the use of RSS feeds for personal use in a news reader or as part of a non-commercial blog, subject to your agreement to our Terms of Service.</copyright>
+    <language>en</language>
+    <pubDate>Thu, 13 Nov 2025 10:45:00 +0000</pubDate>
+    <lastBuildDate>Thu, 13 Nov 2025 15:53:20 +0000</lastBuildDate>
+    <image>
+      <link>https://www.nytimes.com/the-daily</link>
+      <title>The Daily</title>
+      <url>https://image.simplecastcdn.com/images/7f2f4c05-9c2f-4deb-82b7-b538062bc22d/73549bf1-94b3-40ff-8aeb-b4054848ec1b/3000x3000/the-daily-album-art-original.jpg?aid=rss_feed</url>
+    </image>
+    <link>https://www.nytimes.com/the-daily</link>
+    <itunes:type>episodic</itunes:type>
+    <itunes:summary>This is what the news should sound like. The biggest stories of our time, told by the best journalists in the world. Hosted by Michael Barbaro, Rachel Abrams and Natalie Kitroeff. Twenty minutes a day, five days a week, ready by 6 a.m. 
+
+Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher.</itunes:summary>
+    <itunes:author>The New York Times</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://image.simplecastcdn.com/images/7f2f4c05-9c2f-4deb-82b7-b538062bc22d/73549bf1-94b3-40ff-8aeb-b4054848ec1b/3000x3000/the-daily-album-art-original.jpg?aid=rss_feed"/>
+    <itunes:new-feed-url>https://feeds.simplecast.com/54nAGcIl</itunes:new-feed-url>
+    <itunes:owner>
+      <itunes:name>The New York Times</itunes:name>
+      <itunes:email>thedaily@nytimes.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="News">
+      <itunes:category text="Daily News"/>
+    </itunes:category>
+    <item>
+      <guid isPermaLink="false">72a8df9c-079c-4d63-9ea1-194afdf1a325</guid>
+      <title>‘He Knew’: What Epstein Said About Trump in New Emails</title>
+      <description><![CDATA[<p>Thousands of pages of newly released emails between Jeffrey Epstein and his associates have put the convicted sex offender’s relationship with President Trump back in the spotlight.</p><p>David Enrich and Michael Gold, who have been covering the story, explain what the new documents tell us and discuss whether they could prompt the release of the rest of the Epstein files.</p><p>Guest: </p><ul><li><a href="https://www.nytimes.com/by/david-enrich" target="_blank"><strong>David Enrich</strong></a>, a deputy investigations editor for The New York Times.</li><li><a href="https://www.nytimes.com/by/michael-gold" target="_blank"><strong>Michael Gold</strong></a>, a congressional correspondent for The New York Times.</li></ul><p>Background reading: </p><ul><li>Mr. Trump said the Democrats were <a href="https://www.nytimes.com/2025/11/12/us/politics/epstein-emails-trump.html" target="_blank">bringing up the Epstein “hoax”</a> to deflect from the government shutdown.</li><li>House Republicans asserted that the emails <a href="https://www.nytimes.com/2025/11/12/us/politics/epstein-emails-trump.html" target="_blank">revealed little information</a>.</li></ul><p>Photo: Doug Mills/The New York Times</p><p>For more information on today’s episode, visit <a href="http://nytimes.com/thedaily?smid=pc-thedaily"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday. </p>
+<p><p>Subscribe today at <a href="http://nytimes.com/podcasts">nytimes.com/podcasts</a> or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here <a href="https://www.nytimes.com/activate-access/audio?source=podcatcher">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p>]]></description>
+      <pubDate>Thu, 13 Nov 2025 10:45:00 +0000</pubDate>
+      <author>thedaily@nytimes.com (The New York Times)</author>
+      <link>https://www.nytimes.com/the-daily</link>
+      <media:thumbnail height="720" url="https://image.simplecastcdn.com/images/34e5431c-f7f7-4edd-9b5d-0277e197a71b/f4cfc568-46b9-4999-94bd-d866a4b4c13f/13thedaily-youtube-2-20-1.jpg" width="1280"/>
+      <content:encoded><![CDATA[<p>Thousands of pages of newly released emails between Jeffrey Epstein and his associates have put the convicted sex offender’s relationship with President Trump back in the spotlight.</p><p>David Enrich and Michael Gold, who have been covering the story, explain what the new documents tell us and discuss whether they could prompt the release of the rest of the Epstein files.</p><p>Guest: </p><ul><li><a href="https://www.nytimes.com/by/david-enrich" target="_blank"><strong>David Enrich</strong></a>, a deputy investigations editor for The New York Times.</li><li><a href="https://www.nytimes.com/by/michael-gold" target="_blank"><strong>Michael Gold</strong></a>, a congressional correspondent for The New York Times.</li></ul><p>Background reading: </p><ul><li>Mr. Trump said the Democrats were <a href="https://www.nytimes.com/2025/11/12/us/politics/epstein-emails-trump.html" target="_blank">bringing up the Epstein “hoax”</a> to deflect from the government shutdown.</li><li>House Republicans asserted that the emails <a href="https://www.nytimes.com/2025/11/12/us/politics/epstein-emails-trump.html" target="_blank">revealed little information</a>.</li></ul><p>Photo: Doug Mills/The New York Times</p><p>For more information on today’s episode, visit <a href="http://nytimes.com/thedaily?smid=pc-thedaily"><strong>nytimes.com/thedaily</strong></a>. Transcripts of each episode will be made available by the next workday. </p>
+<p><p>Subscribe today at <a href="http://nytimes.com/podcasts">nytimes.com/podcasts</a> or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here <a href="https://www.nytimes.com/activate-access/audio?source=podcatcher">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p>]]></content:encoded>
+      <enclosure length="27149121" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/79542b76-025c-481a-8c24-fb9577bb9b47/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&amp;awEpisodeId=79542b76-025c-481a-8c24-fb9577bb9b47&amp;feed=54nAGcIl"/>
+      <itunes:title>‘He Knew’: What Epstein Said About Trump in New Emails</itunes:title>
+      <itunes:author>The New York Times</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/34e5431c-f7f7-4edd-9b5d-0277e197a71b/31211967-95ae-4b80-ba40-8ea71230f11b/3000x3000/13thedaily-applespotify-2-20-1.jpg?aid=rss_feed"/>
+      <itunes:duration>00:28:16</itunes:duration>
+      <itunes:summary>Thousands of pages of newly released emails between Jeffrey Epstein and his associates have put the convicted sex offender’s relationship with President Trump back in the spotlight.
+
+David Enrich and Michael Gold, who have been covering the story, explain what the new documents tell us and discuss whether they could prompt the release of the rest of the Epstein files.</itunes:summary>
+      <itunes:subtitle>Thousands of pages of newly released emails between Jeffrey Epstein and his associates have put the convicted sex offender’s relationship with President Trump back in the spotlight.
+
+David Enrich and Michael Gold, who have been covering the story, explain what the new documents tell us and discuss whether they could prompt the release of the rest of the Epstein files.</itunes:subtitle>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+  </channel>
+</rss>
